@@ -1,0 +1,66 @@
+
+.contenedor-hola-mundo{
+                        
+                       
+
+    h1{
+        font-family: $fuentetitulos;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        margin-left: 5%;
+        margin-top: 29px;
+
+        i{font-style: normal;}
+
+        span{
+            text-decoration: line-through;
+        }
+    }
+
+    .segundo-parrafo{
+                    visibility: hidden;
+    }
+
+    div:first-of-type {
+                        margin: 16px 16px 36px 5%;
+                    
+                        p{
+                            font-family: $fuenteppal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 22px;
+                            text-align: start;
+                            margin-bottom: -55px;
+                        }
+
+    }
+
+    .boton-uno{
+       
+        width: 90%;
+        height: 48px;
+        background-color: #00F3BB;
+        margin: 0px 5% 24px 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .anchor-uno{
+        font-family: $fuentebotones;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+
+    }
+
+   
+}
+
+
+
+

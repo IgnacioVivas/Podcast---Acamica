@@ -1,0 +1,48 @@
+#contenedor-phone-parrafo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+
+.contenedor-phone{ 
+    transform: translateY(-80px);
+    margin-bottom: -85px;
+    margin-left: 50%;
+    margin-right: 50%;
+    
+#phone{
+        width: 360px;
+        height: 519px;
+
+}
+
+}
+h2{
+    font-size: 36px;
+    font-family: $fuentetitulos;
+    font-weight: 400;
+    margin-left: 16px;
+    margin-top: 27px;
+    margin-bottom: 8px;
+    transform: translateX(-74px);
+}      
+
+.contenedor-parrafo{
+    
+    div{
+        width: 288px;
+        height: 254px;
+        margin-left: 16px;
+        margin-right: 16px;
+
+    }
+    p{
+        font-family: $fuenteppal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: start;
+        letter-spacing: 0;
+    }
+}
+}

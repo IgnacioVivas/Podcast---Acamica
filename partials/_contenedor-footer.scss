@@ -1,0 +1,32 @@
+.contenedor-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+.contenedor-redes-sociales{
+                margin-bottom: 31px;
+}
+   i{
+       margin-left: 19px;
+       margin-right: 19px;
+       margin-top: 16px; 
+       font-size: 16px;
+       width: 16px;
+       height: 28px;
+      
+    }
+
+   p{
+       margin-top: 24px;
+       font-size: 14px;
+       font-family: $fuenteppal;
+       font-weight: 400;
+       margin-right: 46px;
+       margin-left: 47px;
+   }
+
+   a{text-decoration: none;
+    color: black;}
+
+}
